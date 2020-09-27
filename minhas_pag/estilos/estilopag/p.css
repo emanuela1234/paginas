@@ -1,0 +1,356 @@
+.row.heading h2 {
+    color: #fff;
+    font-size: 52.52px;
+    line-height: 95px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 40px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.heading.heading-icon {
+    display: block;
+}
+.padding-lg {
+	display: block;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.practice-area.padding-lg {
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+.practice-area .inner{ 
+     border:1px solid #999999; 
+	 text-align:center; 
+	 margin-bottom:28px; 
+	 padding:40px 25px;
+}
+.our-webcoderskull .cnt-block:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    border: 0;
+}
+.practice-area .inner h3{ 
+    color:#3c3c3c; 
+	font-size:24px; 
+	font-weight:500;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px 0;
+}
+.practice-area .inner p{ 
+    font-size:14px; 
+	line-height:22px; 
+	font-weight:400;
+}
+.practice-area .inner img{
+	display:inline-block;
+}
+
+
+
+  
+
+.our-webcoderskull .cnt-block{ 
+   float:left; 
+   width:100%; 
+   background:#fff; 
+   padding:30px 20px; 
+   text-align:center; 
+   border:2px solid #d5d5d5;
+   margin: 0 0 28px;
+}
+.our-webcoderskull .cnt-block figure{
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+   display:inline-block;
+   margin-bottom: 15px;
+}
+.our-webcoderskull .cnt-block img{ 
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+}
+.our-webcoderskull .cnt-block h3{ 
+   color:#2a2a2a; 
+   font-size:20px; 
+   font-weight:500; 
+   padding:6px 0;
+   text-transform:uppercase;
+}
+.our-webcoderskull .cnt-block h3 a{
+  text-decoration:none;
+	color:#2a2a2a;
+}
+.our-webcoderskull .cnt-block h3 a:hover{
+	color:#337ab7;
+}
+.our-webcoderskull .cnt-block p{ 
+   color:#2a2a2a; 
+   font-size:13px; 
+   line-height:20px; 
+   font-weight:400;
+}
+.our-webcoderskull .cnt-block .follow-us{
+	margin:20px 0 0;
+}
+.our-webcoderskull .cnt-block .follow-us li{ 
+    display:inline-block; 
+	width:auto; 
+	margin:0 5px;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa{ 
+   font-size:24px; 
+   color:#767676;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa:hover{ 
+   color:#025a8e;
+}
+
+
+/*estilo modal*/
+
+
+<style type="text/css">
+{font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/*estilo pacotes*/
+ body {
+      margin: 0;
+      padding: 0;
+    }
+    .secao {
+      position: relative;
+    }
+    #secao-01 {
+      background-color: #fff;
+    }
+    #secao-02 {
+      background-color: #F2FBEF;
+    }
+    #secao-03 {
+      background-color: #FAFAFA;
+    }
+    #secao-04 {
+      background-color: #EFF5FB;
+    }
+    .icone-scroll {
+      position: absolute;
+      bottom: 3em;
+      width: 50px;
+      height: 50px;
+      background-color: #1a1a1a;
+      border-radius: 50%;
+      left: 50%;
+      margin-left: -25px;
+      cursor: pointer;
+    }
+    .scroll {
+      width: 15px;
+      height: 15px;
+      border-right: 2px solid #fff;
+      border-bottom: 2px solid #fff;
+      display: inline-block;
+      position: relative;
+    }
+    .scroll-next {
+      transform: rotate(45deg);
+      margin: 14px 0 0 16.5px;
+    }
+    .scroll-top {
+      transform: rotate(225deg);
+      margin: 19px 0 0 17px;
+    }
+    .scroll-top + .scroll-top {
+      top: -15px;
+      margin-top: 0;
+    }
+
+    /*rodape*/
+    /*estilo do rodapé*/
+  #rodape {
+    background-color: #00BFFF;
+   
+    padding-top: 30px;
+}
+
+    #rodape .rodape-copyright {
+        background-color: ;
+        padding-top: 3px;
+        padding-bottom: 0px;
+        text-align: center;
+        
+    }
+
+    #rodape .row {
+        margin-bottom: 60px;
+    }
+
+    #rodape .navbar-brand {
+        margin-top: 45px;
+        height: 65px;
+    }
+
+    #rodape .rodape-copyright p {
+        margin: 10px;
+        color: #ccc;
+    }
+
+    #rodape ul {
+        list-style-type: none;/*tipo de estilo de lista*/
+        padding-left: 0;
+        line-height: 1.7; /*altura da linha*/
+    }
+
+    #rodape h5 {
+        font-size: 18px;/*tamanho da fonte*/
+        color: white;
+        font-weight: bold;/*font negrita*/
+        margin-top: 30px;
+    }
+
+    #rodape h2 a{
+        font-size: 50px;
+        text-align: center;
+        color: #fff;
+    }
+
+    #rodape a {
+        color: #d2d1d1;
+        text-decoration: none;
+    }
+
+    #rodape a:hover,
+    #rodape a:focus {
+        text-decoration: none;
+        color: white;
+    }
+
+    #rodape .social-networks {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 16px;
+    }
+
+    #rodape .social-networks a {
+        font-size: 32px;
+        color: #f9f9f9;
+        padding: 10px;
+        transition: 0.2s;
+    }
+
+    #rodape .social-networks a:hover {
+        text-decoration: none;
+    }
+
+    #rodape .facebook:hover {
+        color: #0077e2;
+    }
+
+    #rodape .instagram:hover {
+        color: purple;
+    }
+
+    #rodape .twitter:hover {
+        color: #00aced;
+    }
+
+    #rodape .btn {
+        color: white;
+        background-color: #d84b6b;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        display: block;/*exibição em quadra*/
+        margin: 0 auto;
+        margin-top: 10px;
+        line-height: 25px;/*altura da linha*/
+    }
+
+    @media screen and (max-width: 767px) 
+    {
+        #rodape 
+        {
+            text-align: center;
+        }
+    }
+    
+
+    #rodape
+    {
+       flex: 0 0 auto;
+       -webkit-flex: 0 0 auto;
+    }
+
+    footer {
+    padding: 80px 0px 20px 0px;
+             }
+  footer .rodape 
+  {
+    border-bottom: 1px solid #343434;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+  footer 
+   {
+    border-bottom: none;
+  right-content 
+
+    margin-right: 0px;
+    margin-bottom: 30px;
+  
+    margin-bottom: 30px;
+  
+    margin-left: 0px;
+    margin-top: 30px;
+  
+    margin-bottom: 30px;
+  }
+
+
+

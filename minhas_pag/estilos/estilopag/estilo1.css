@@ -1,0 +1,183 @@
+
+    /*estilo do rodapé*/
+  #rodape {
+    background-color: #00BFFF;
+   
+    padding-top: 30px;
+}
+
+    #rodape .rodape-copyright {
+        background-color: ;
+        padding-top: 3px;
+        padding-bottom: 0px;
+        text-align: center;
+        
+    }
+
+    #rodape .row {
+        margin-bottom: 60px;
+    }
+
+    #rodape .navbar-brand {
+        margin-top: 45px;
+        height: 65px;
+    }
+
+    #rodape .rodape-copyright p {
+        margin: 10px;
+        color: #ccc;
+    }
+
+    #rodape ul {
+        list-style-type: none;/*tipo de estilo de lista*/
+        padding-left: 0;
+        line-height: 1.7; /*altura da linha*/
+    }
+
+    #rodape h5 {
+        font-size: 18px;/*tamanho da fonte*/
+        color: white;
+        font-weight: bold;/*font negrita*/
+        margin-top: 30px;
+    }
+
+    #rodape h2 a{
+        font-size: 50px;
+        text-align: center;
+        color: #fff;
+    }
+
+    #rodape a {
+        color: #d2d1d1;
+        text-decoration: none;
+    }
+
+    #rodape a:hover,
+    #rodape a:focus {
+        text-decoration: none;
+        color: white;
+    }
+
+    #rodape .social-networks {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 16px;
+    }
+
+    #rodape .social-networks a {
+        font-size: 32px;
+        color: #f9f9f9;
+        padding: 10px;
+        transition: 0.2s;
+    }
+
+    #rodape .social-networks a:hover {
+        text-decoration: none;
+    }
+
+    #rodape .facebook:hover {
+        color: #0077e2;
+    }
+
+    #rodape .instagram:hover {
+        color: purple;
+    }
+
+    #rodape .twitter:hover {
+        color: #00aced;
+    }
+
+    #rodape .btn {
+        color: white;
+        background-color: #d84b6b;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        display: block;/*exibição em quadra*/
+        margin: 0 auto;
+        margin-top: 10px;
+        line-height: 25px;/*altura da linha*/
+    }
+
+    @media screen and (max-width: 767px) 
+    {
+        #rodape 
+        {
+            text-align: center;
+        }
+    }
+    
+
+    #rodape
+    {
+       flex: 0 0 auto;
+       -webkit-flex: 0 0 auto;
+    }
+
+    footer {
+    padding: 80px 0px 20px 0px;
+             }
+  footer .rodape 
+  {
+    border-bottom: 1px solid #343434;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+  footer 
+   {
+    border-bottom: none;
+  right-content 
+
+    margin-right: 0px;
+    margin-bottom: 30px;
+  
+    margin-bottom: 30px;
+  
+    margin-left: 0px;
+    margin-top: 30px;
+  
+    margin-bottom: 30px;
+  }
+
+
+
+
+
+		/* CSS utilizado para posicionar o rodapé no final da página. */
+
+
+
+		
+
+		
+
+		#rodape
+		{
+		   flex: 0 0 auto;
+		   -webkit-flex: 0 0 auto;
+		}
+
+		footer {
+		padding: 80px 0px 20px 0px;
+	           }
+	footer .rodape 
+	{
+		border-bottom: 1px solid #343434;
+		margin-bottom: 30px;
+		padding-bottom: 30px;
+	}
+	footer 
+	 {
+		border-bottom: none;
+	right-content 
+
+		margin-right: 0px;
+		margin-bottom: 30px;
+	
+		margin-bottom: 30px;
+	
+		margin-left: 0px;
+		margin-top: 30px;
+	
+		margin-bottom: 30px;
+	}

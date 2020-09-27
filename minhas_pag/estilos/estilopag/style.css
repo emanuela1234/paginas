@@ -1,0 +1,155 @@
+/*estilo pag promo*/
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+p {
+	margin-bottom: 0px;
+	font-size: 14px;
+	color: #666666;
+	line-height: 30px;
+}
+a {
+	text-decoration: none!important;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+/* Requerimento Formulario */
+
+.request-form {
+	background-color: #a4c639;
+	padding: 40px 0px;
+	color: #fff;
+}
+
+.request-form h4 {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.request-form span {
+	font-size: 15px;
+	font-weight: 400;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.request-form a.border-button {
+	margin-top: 12px;
+	float: right;
+}
+
+
+ 
+ 
+
+}
+
+.button{
+	background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+
+
+
+/* Serviços */
+
+.services {
+	margin-top: 140px;
+}
+
+.service-item img {
+	width: 100%;
+	overflow: hidden;
+}
+
+.service-item .down-content {
+	background-color: #f7f7f7;
+	padding: 30px;
+}
+
+.service-item .down-content h4 {
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0.25px;
+	margin-bottom: 15px;
+}
+
+.service-item .down-content p {
+	margin-bottom: 20px;
+}
+
+.page-link:hover,
+.page-link {
+	color: blue;
+	border-color: blue;
+}
+
+.btn-primy {
+	border-color: blue;
+	background-color: blue;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active:focus{
+	opacity: 0.6;
+	border-color: blue;
+	background-color: #a4c639;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+h5 a { color: #a4c639; } 
+h5 a:hover { color: inherit; } 
+
+
+  /* image  responsive */
+  .carousel-inner img {
+  	background-image 
+    width: 200%;
+    height: 200%;
+  }
